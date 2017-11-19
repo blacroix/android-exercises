@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fr.android.androidexercises.BookItemView
+
+<fr.android.keovilay.BookItemView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,9 +8,11 @@
     android:orientation="horizontal"
     android:padding="10dp">
 
+
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/bookImageView"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
         android:src="@drawable/ic_launcher"
         tools:ignore="ContentDescription"/>
 
@@ -21,4 +24,4 @@
         android:layout_weight="1"
         tools:text="Henri Potier à l'école des sorciers"/>
 
-</fr.android.androidexercises.BookItemView>
+</fr.android.keovilay.BookItemView>
